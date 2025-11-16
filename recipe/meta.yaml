@@ -1,13 +1,13 @@
 {% set name = "rkstiff" %}
-{% set version = "0.1.0" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b00978be213c0f31d68f98b9fef88d71e0b4b788c0c3c227bb5df049fd9204f8
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 000e1d17eaad71ff31925d024a71fc9838eb25dd493f37852faec9a9296162e9
 
 build:
   noarch: python
